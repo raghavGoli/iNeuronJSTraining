@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1 id="result"></h1>
+
+<button ondblclick="myfunction()">Click to start marriage age calculation</button>
+
+	<script type="text/javascript">
+function myfunction()
+{
+
+	try {
+				var num1=prompt("Please enter user age")
+				while(num1<21)
+				
+				{
+					throw RangeError ("Age should be greater than 21")
+				}
+			
+		} catch (RangeError)  {
+				alert("Have some patience")
+			}
+			while(num1>21)
+			{
+				alert("Eligible")
+				break;
+			}
+}
+		
+		</script>
+</body>
+</html>

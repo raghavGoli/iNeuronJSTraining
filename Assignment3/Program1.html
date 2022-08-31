@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1 id="SUM : "+sum></h1>
+
+<button onclick="myaddfunction()">Click to display the final sum</button>
+
+<script type="text/javascript">
+function myaddfunction(x,y)
+{
+
+if(isNaN(x) && isNaN(y))
+{
+	let x=Number(prompt("Please enter first number:"))
+	let y=Number(prompt("Please enter second number"))
+	let sum=parseInt(x)+parseInt(y)
+	alert("Final Sum is:"  +sum)
+	
+}
+else
+{
+	alert("Please use only number")
+}
+	
+}
+		</script>
+</body>
+</html>
