@@ -1,0 +1,9 @@
+{
+  "url":"https://ineuron-courses.vercel.app/login",
+  "username": "ineuron@ineuron.ai",
+  "password": "ineuron",
+  "courseName":"JSAutomationTools",
+  "courseDescription":"JSAutomationTools is a popular course in ineuron",
+  "instructorName":"Mukesh",
+  "price":"200"
+}
