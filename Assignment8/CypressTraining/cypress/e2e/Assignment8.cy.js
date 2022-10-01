@@ -19,7 +19,7 @@ describe('Task 1- Task 1- Create category using cypress with data from fixture',
             cy.stub(win, "prompt").returns(this.jsonfixtureData.categoryName)
             
         })
-        cy.contains("Cypress-Raghav").should("be.visible")
+        cy.contains(this.jsonfixtureData.categoryName).should("be.visible")
         cy.logout("Sign out")
     })
 })
